@@ -1,0 +1,16 @@
+let numero = 1
+let numerosPositivos = 0
+
+function contagem(){
+    numero = parseInt(prompt("Insira seu número: "))
+    
+    if (numero > 0){
+        numerosPositivos += 1
+    }
+}
+
+for (let i = 0; i < 5; i++) {
+    contagem()
+}
+
+console.log("Você inseriu " + numerosPositivos + " números positivos!")
