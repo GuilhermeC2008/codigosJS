@@ -1,0 +1,7 @@
+let numero = parseInt(prompt("Contador \n Quer contar até: "))
+let contagem = 0
+
+while (contagem < numero){
+    contagem += 1
+    console.log(contagem);
+}
