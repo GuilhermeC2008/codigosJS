@@ -1,0 +1,9 @@
+let idade = parseInt(prompt("Insira sua idade \n"));
+
+if (idade > 18){
+    console.log("De maior")
+}else if (idade <18){
+    console.log("De menor")
+}else{
+    console.log("Insira apenas números")
+}
