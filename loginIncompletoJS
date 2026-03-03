@@ -1,0 +1,22 @@
+let usuarioCerto = "admin";
+let senhaCerta = "123";
+let tentativaUser = "";
+let tentativaSenha = "";
+
+function tentativa(){
+  tentativaUser = prompt("Insira o usuário: ");
+  tentativaSenha = prompt("Insira a senha: ");
+  
+  if(tentativaUser == usuarioCerto && tentativaSenha == senhaCerta){
+      console.log("Login efetuado!");
+      
+  }else{
+      console.log("Login ou senha incorreta");
+  }
+}
+
+for (let i = 0; i < 3; i++){
+    tentativa();
+}
+
+console.log("Acesso bloqueado.");
