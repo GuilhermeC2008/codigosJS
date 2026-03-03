@@ -1,0 +1,7 @@
+let numero = parseInt(prompt("Verificador de par ou ímpar \n Insira seu número: \n"));
+
+if (numero % 2 == 0){
+    console.log("Número par")
+}else if (numero % 2 != 0){
+    console.log("número ímpar")
+}
