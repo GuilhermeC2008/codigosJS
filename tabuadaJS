@@ -1,0 +1,7 @@
+let tabuada = parseInt(prompt("Tabuada simulator \n Você quer ver a tabuada de que número? \n"));
+let multiplicacao = 0
+
+while (multiplicacao < 10){
+    multiplicacao += 1
+    console.log(tabuada * multiplicacao);
+}
